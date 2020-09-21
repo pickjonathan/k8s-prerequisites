@@ -4,5 +4,5 @@ metadata:
   name: cache-service
 data:
   type: CouchBase
-  bucket_name: k8s-qa
+  bucket_name: k8s-qa2
   connection_string: qailcb-cluster.nayaxvend.int:8091
