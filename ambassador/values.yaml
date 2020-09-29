@@ -1,7 +1,9 @@
+global:
+
 ambassador:
   name: ambassador
   namespaceOverride: ambassador
-  adminService: 
+  adminService:
     loadBalancerIP: 35.233.72.246
-  service: 
+  service:
     loadBalancerIP: 35.233.72.246
