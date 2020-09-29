@@ -1,7 +1,5 @@
 global:
 
 ambassador:
-  name: ambassador
-  namespaceOverride: ambassador
   service:
     loadBalancerIP: 35.233.72.246
