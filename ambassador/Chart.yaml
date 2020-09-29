@@ -1,20 +1,23 @@
 apiVersion: v1
 name: ambassador
-version: 0.0.1
-kubeVersion: 
-description: ambassador api gateway installation
-keywords:
-  - ApiGateWay
-home: The URL of this project's home page (optional)
-sources:
-  - A list of URLs to source code for this project (optional)
-maintainers:
-  - name: Jonathan pick
-    email: jonathanp@nayax.com
-  - name: Shai Galili
-    email: shai@nayax.com
-engine: gotpl
-icon:
-appVersion: 1
-deprecated: false
-tillerVersion: ">3.0.0"
+description: Ambassador helm chart
+
+# A chart can be either an 'application' or a 'library' chart.
+#
+# Application charts are a collection of templates that can be packaged into versioned archives
+# to be deployed.
+#
+# Library charts provide useful utilities or functions for the chart developer. They're included as
+# a dependency of application charts to inject those utilities and functions into the rendering
+# pipeline. Library charts do not define any templates and therefore cannot be deployed.
+type: application
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 0.1.0
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+appVersion: 1.0.0
