@@ -1,4 +1,4 @@
 dependencies:
-- name: ambassador
-  version: 6.5.6
-  repository: https://www.getambassador.io
+  - name: ambassador
+    version: 6.5.6
+    repository: https://www.getambassador.io
