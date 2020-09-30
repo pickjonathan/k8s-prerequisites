@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="deleted the namespace">
+      <change beforePath="$PROJECT_DIR$/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/values.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1iCSh1rkniOoQAODzUCAGDNsbKn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ambassador/templates" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="" />
+      <created>1601410197520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601410197520</updated>
+      <workItem from="1601410199273" duration="4211000" />
+    </task>
+    <task id="LOCAL-00001" summary="values fix">
+      <created>1601410618825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601410618825</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changed project structure">
+      <created>1601411236704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601411236704</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleted the admin load-balancer ip">
+      <created>1601412619203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601412619203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="deleted the namespace">
+      <created>1601413263765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601413263765</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="values fix" />
+    <MESSAGE value="changed project structure" />
+    <MESSAGE value="deleted the admin load-balancer ip" />
+    <MESSAGE value="deleted the namespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted the namespace" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1601413266455">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601413266455" />
+  </component>
+</project>
