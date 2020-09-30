@@ -1,6 +1,6 @@
 dependencies:
-- name: ambassador
-  repository: https://www.getambassador.io
-  version: 6.5.6
-digest: sha256:3126a5944b315efc8b29a7290dc47fbaabd41df931633d535bb46e3bb2fe33f1
-generated: "2020-09-29T22:58:38.576565+03:00"
+- name: gloo
+  repository: https://storage.googleapis.com/solo-public-helm
+  version: 1.4.9
+digest: sha256:bfc8f156ac862b85c965caf748e969c82d413beaf3633605ca58847ea59731f2
+generated: "2020-09-30T07:58:54.803644+03:00"

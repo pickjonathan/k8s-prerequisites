@@ -1,5 +1,9 @@
 global:
 
-ambassador:
-  service:
-    loadBalancerIP: 35.233.72.246
+gloo:
+  settings:
+    integrations:
+      knative:
+        proxy:
+          service:
+            loadBalancerIP: 35.233.72.246
