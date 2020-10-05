@@ -2,4 +2,5 @@ mqtt-api:
   image:
     tag: sg-k8s
     name: mqtt-api
+    branchName: sg-k8s
     repository: eu.gcr.io/newagent-37654
