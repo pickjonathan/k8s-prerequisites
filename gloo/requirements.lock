@@ -1,6 +1,6 @@
 dependencies:
-- name: gloo
-  repository: https://storage.googleapis.com/solo-public-helm
+- name: gloo-os-with-ui
+  repository: https://storage.googleapis.com/gloo-os-ui-helm
   version: 1.4.9
-digest: sha256:bfc8f156ac862b85c965caf748e969c82d413beaf3633605ca58847ea59731f2
-generated: "2020-09-30T07:58:54.803644+03:00"
+digest: sha256:dec7dfb1d505e2ee347a2116d111bebf6c4b1c4b4d049189de5d0cce5c413151
+generated: "2020-09-30T08:56:53.711774+03:00"

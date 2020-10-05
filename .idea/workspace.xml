@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="deleted the namespace">
-      <change beforePath="$PROJECT_DIR$/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qa/requirements.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gloo/charts/gloo-1.4.9.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gloo/requirements.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/requirements.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gloo/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/requirements.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gloo/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +40,27 @@
     <option name="namespace" value="default" />
   </component>
   <component name="ProjectId" id="1iCSh1rkniOoQAODzUCAGDNsbKn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qa" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qa" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gloo" />
       <recent name="$PROJECT_DIR$/ambassador/templates" />
     </key>
   </component>
@@ -63,7 +72,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601410197520</updated>
-      <workItem from="1601410199273" duration="4211000" />
+      <workItem from="1601410199273" duration="9010000" />
+      <workItem from="1601471064731" duration="138000" />
+      <workItem from="1601495451632" duration="19000" />
+      <workItem from="1601914640423" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -109,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="values fix" />
@@ -122,5 +135,9 @@
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
     <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601413266455" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1601465052398">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1601465052398" />
   </component>
 </project>

@@ -1,4 +1,4 @@
 dependencies:
-  - name: gloo
+  - name: gloo-os-with-ui
     version: 1.4.9
-    repository: https://storage.googleapis.com/solo-public-helm
+    repository: https://storage.googleapis.com/gloo-os-ui-helm
