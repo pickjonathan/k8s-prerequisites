@@ -1,5 +1,5 @@
 mqtt-api:
   image:
     tag: sg-k8s
-    name: mqtt-apis
+    name: mqtt-api
     repository: eu.gcr.io/newagent-37654
