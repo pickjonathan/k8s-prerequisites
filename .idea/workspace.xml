@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="deleted the namespace">
-      <change afterPath="$PROJECT_DIR$/qa/requirements.yaml" afterDir="false" />
+    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="add a dependency in our new helm chart pulled from the remote gcs reg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gloo/charts/gloo-1.4.9.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gloo/requirements.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/requirements.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gloo/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/requirements.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gloo/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/qa/Chart.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qa/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/charts/mqtt-api-1.0.725.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qa/requirements.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,8 @@
       <workItem from="1601471064731" duration="138000" />
       <workItem from="1601495451632" duration="19000" />
       <workItem from="1601914640423" duration="732000" />
+      <workItem from="1601978143497" duration="88000" />
+      <workItem from="1601978600789" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -131,10 +132,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="deleted the namespace" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1601413266455">
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1601915665922">
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
-    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601413266455" />
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601915665922" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1601465052398">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
