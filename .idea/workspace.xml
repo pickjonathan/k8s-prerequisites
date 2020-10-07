@@ -20,10 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="updated dep in qa chart where ambassador chart templates were deleted.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-service-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mqtt-service-configmap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/qa/Chart.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa/charts/mqtt-api-1.0.748.tgz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qa/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qa/requirements.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,7 @@
       <workItem from="1601914640423" duration="732000" />
       <workItem from="1601978143497" duration="88000" />
       <workItem from="1601978600789" duration="2718000" />
-      <workItem from="1602076056042" duration="217000" />
+      <workItem from="1602076056042" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -147,13 +143,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated dep in qa chart where ambassador chart templates were deleted." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1228" y="197" width="2096" height="1155" key="MergeDialog" timestamp="1602076495849">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="1228" y="197" width="2096" height="1155" key="MergeDialog/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076495849" />
+    <state x="765" y="233" key="MultipleFileMergeDialog" timestamp="1602076495880">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="765" y="233" key="MultipleFileMergeDialog/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076495880" />
     <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1601988584531">
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
     <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601988584531" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1601465052398">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup" timestamp="1602076458474">
+      <screen x="0" y="23" width="5120" height="1417" />
     </state>
+    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076458474" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1601465052398" />
   </component>
 </project>
