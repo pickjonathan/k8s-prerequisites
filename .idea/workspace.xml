@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="updated dep in qa chart where ambassador chart templates were deleted.">
-      <change beforePath="$PROJECT_DIR$/qa/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qa/requirements.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elk/.helmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elk/Chart.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elk/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elk/requirements.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elk/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/qa/Chart.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +57,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/elk" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/qa" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/gloo" />
       <recent name="$PROJECT_DIR$/ambassador/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/elk" />
+      <recent name="$PROJECT_DIR$/qa" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +86,9 @@
       <workItem from="1601914640423" duration="732000" />
       <workItem from="1601978143497" duration="88000" />
       <workItem from="1601978600789" duration="2718000" />
-      <workItem from="1602076056042" duration="703000" />
+      <workItem from="1602076056042" duration="1082000" />
+      <workItem from="1602093095592" duration="591000" />
+      <workItem from="1602099514543" duration="3479000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -143,6 +152,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated dep in qa chart where ambassador chart templates were deleted." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602099921760">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1602099921760" />
     <state x="1228" y="197" width="2096" height="1155" key="MergeDialog" timestamp="1602076495849">
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
@@ -155,6 +168,10 @@
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
     <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601988584531" />
+    <state x="289" y="299" width="602" height="522" key="find.popup" timestamp="1602100654045">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="289" y="299" width="602" height="522" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1602100654045" />
     <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup" timestamp="1602076458474">
       <screen x="0" y="23" width="5120" height="1417" />
     </state>

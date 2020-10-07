@@ -1,0 +1,9 @@
+dependencies:
+- name: elastic-stack
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 2.0.3
+- name: filebeat
+  repository: https://helm.elastic.co
+  version: 7.9.2
+digest: sha256:bbeb22356094ee1387439d2a4e3047c511a5bf6ac169178a83cf8afb95300b20
+generated: "2020-10-07T23:27:28.570833+03:00"

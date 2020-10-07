@@ -3,4 +3,4 @@ dependencies:
   repository: gs://helm_charts_bucket
   version: 1.0.761
 digest: sha256:40b567bdc730ad5e8d198633cf295e0db94b172e699206cdc659b5e74436733c
-generated: "2020-10-07T16:22:03.69232+03:00"
+generated: "2020-10-07T23:05:04.42393+03:00"
