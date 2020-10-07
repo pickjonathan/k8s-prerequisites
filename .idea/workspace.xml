@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="add a dependency in our new helm chart pulled from the remote gcs reg">
+    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="updated dep in qa chart where ambassador chart templates were deleted.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mqtt-service-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mqtt-service-configmap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qa/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/qa/Chart.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qa/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa/charts/mqtt-api-1.0.725.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/charts/mqtt-api-1.0.748.tgz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/qa/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qa/requirements.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +32,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">
@@ -76,7 +82,8 @@
       <workItem from="1601495451632" duration="19000" />
       <workItem from="1601914640423" duration="732000" />
       <workItem from="1601978143497" duration="88000" />
-      <workItem from="1601978600789" duration="1082000" />
+      <workItem from="1601978600789" duration="2718000" />
+      <workItem from="1602076056042" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -106,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601413263765</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated dep in qa chart where ambassador chart templates were deleted.">
+      <created>1601988572422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601988572422</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,13 +143,14 @@
     <MESSAGE value="changed project structure" />
     <MESSAGE value="deleted the admin load-balancer ip" />
     <MESSAGE value="deleted the namespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted the namespace" />
+    <MESSAGE value="updated dep in qa chart where ambassador chart templates were deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated dep in qa chart where ambassador chart templates were deleted." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1601915665922">
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1601988584531">
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
-    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601915665922" />
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1601988584531" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1601465052398">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
