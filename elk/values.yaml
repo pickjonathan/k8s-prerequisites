@@ -20,15 +20,17 @@ filebeat:
                 - type: container
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
-                  multiline.pattern: '^\d{4}-\d+-\d+'
+                  multiline.pattern: '^\['
+                  exclude_lines: ['^#']
                   multiline.negate: true
                   multiline.match: after
                   processors:
                     - add_tags:
-                        tags: ["mqtt","k8s"]
+                        tags: ["nx","k8s"]
 
       output.logstash:
-        hosts: ["10.10.10.114:55557"]
+        hosts: ["10.10.10.114:55556"]
+#        hosts: ["10.10.10.114:55557"]
 #        hosts: ["elastic-stack-logstash:5044"]
   # 10.10.10.114:55557
   # Extra environment variables to append to the DaemonSet pod spec.
