@@ -2,8 +2,5 @@ dependencies:
 - name: gloo-ee
   repository: http://storage.googleapis.com/gloo-ee-helm
   version: 1.5.0
-- name: cert-manager
-  repository: https://charts.jetstack.io
-  version: v1.0.2
-digest: sha256:e665e4f19f1fa1ee7696c1f5f19e5468692010301ab6bc5405a09baa07d7d5cb
-generated: "2020-10-08T14:00:27.163332+03:00"
+digest: sha256:d09a58580a71ef371540711aa7df39db1547d6feddd4726d42936bdaf0107ce6
+generated: "2020-10-08T14:06:33.147202+03:00"
