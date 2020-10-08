@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="updated dep in qa chart where ambassador chart templates were deleted.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elk/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/elk/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gloo/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/requirements.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gloo/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <workItem from="1602076056042" duration="1082000" />
       <workItem from="1602093095592" duration="591000" />
       <workItem from="1602099514543" duration="4805000" />
-      <workItem from="1602141949050" duration="730000" />
+      <workItem from="1602141949050" duration="1176000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>

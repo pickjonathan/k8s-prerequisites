@@ -1,6 +1,6 @@
 dependencies:
-- name: gloo-os-with-ui
-  repository: https://storage.googleapis.com/gloo-os-ui-helm
-  version: 1.4.9
-digest: sha256:dec7dfb1d505e2ee347a2116d111bebf6c4b1c4b4d049189de5d0cce5c413151
-generated: "2020-09-30T08:56:53.711774+03:00"
+- name: gloo-ee
+  repository: http://storage.googleapis.com/gloo-ee-helm
+  version: 1.5.0
+digest: sha256:d09a58580a71ef371540711aa7df39db1547d6feddd4726d42936bdaf0107ce6
+generated: "2020-10-08T13:44:20.003382+03:00"
