@@ -28,7 +28,8 @@ filebeat:
                         tags: ["mqtt","k8s"]
 
       output.logstash:
-        hosts: ["elastic-stack-logstash:5044"]
+        hosts: ["10.10.10.114:55557"]
+#        hosts: ["elastic-stack-logstash:5044"]
   # 10.10.10.114:55557
   # Extra environment variables to append to the DaemonSet pod spec.
   # This will be appended to the current 'env:' key. You can use any of the kubernetes env
