@@ -1,2 +1,6 @@
+cert-manager:
+  installCRDs: true
 gloo-ee:
   license_key: "eyJleHAiOjE2MDQyMTUwMDYsImlhdCI6MTYwMTYyMzAwNiwiayI6IlgxRDdmQSIsImx0IjoidHJpYWwiLCJwcm9kdWN0IjoiZ2xvbyJ9.FXob2UM9UbyY6qUBaT0MroD4DtQNHpFHhONRQMgseYU"
+  prometheus:
+    enabled: true

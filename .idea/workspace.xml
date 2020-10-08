@@ -85,7 +85,9 @@
       <workItem from="1602076056042" duration="1082000" />
       <workItem from="1602093095592" duration="591000" />
       <workItem from="1602099514543" duration="4805000" />
-      <workItem from="1602141949050" duration="1176000" />
+      <workItem from="1602141949050" duration="1551000" />
+      <workItem from="1602154499021" duration="25000" />
+      <workItem from="1602154532247" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -149,6 +151,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated dep in qa chart where ambassador chart templates were deleted." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1519" y="379" key="#Plugins" timestamp="1602154523527">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="1519" y="379" key="#Plugins/0.23.5120.1417@0.23.5120.1417" timestamp="1602154523527" />
     <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602099921760">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -169,10 +175,11 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="289" y="299" width="602" height="522" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1602100654045" />
-    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup" timestamp="1602076458474">
+    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup" timestamp="1602154512246">
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
     <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076458474" />
+    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup/0.23.5120.1417@0.23.5120.1417" timestamp="1602154512246" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1601465052398" />
   </component>
 </project>
