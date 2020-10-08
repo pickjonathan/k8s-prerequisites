@@ -1,6 +1,3 @@
-cert-manager:
-  installCRDs: true
-
 gloo-ee:
   gloo:
     gateway:
