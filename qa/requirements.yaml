@@ -1,4 +1,4 @@
 dependencies:
   - name: mqtt-api
-    version: 1.0.808
+    version: 1.0.812
     repository: gs://helm_charts_bucket
