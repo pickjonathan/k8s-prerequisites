@@ -9,6 +9,7 @@ filebeat:
   # such as filebeat.yml
   filebeatConfig:
     filebeat.yml: |
+      logging.level: info
       filebeat.autodiscover:
         providers:
         - type: kubernetes
@@ -28,7 +29,7 @@ filebeat:
                           }
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
-                  multiline.pattern: '^\['
+                  multiline.pattern: '^\d{4}-\d+-\d+'
                   multiline.negate: true
                   multiline.match: after
                   processors:
