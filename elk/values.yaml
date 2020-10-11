@@ -26,6 +26,7 @@ filebeat:
                         source: >
                           function process(event) {
                               console.log(event)
+                              console.log("printing the message from the event " + event.get("message"))
                           }
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
