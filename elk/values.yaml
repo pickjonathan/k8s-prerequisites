@@ -36,7 +36,7 @@ filebeat:
                   multiline.match: after
                   processors:
                     - add_tags:
-                        tags: ["nx","k8s"]
+                        tags: ["NX","k8s"]
 
       output.logstash:
         hosts: ["10.10.10.114:55556"]
