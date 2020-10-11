@@ -25,8 +25,9 @@ filebeat:
                         id: my_filter
                         source: >
                           function process(event) {
-                              console.log(event)
-                              console.log("printing the message from the event " + event.get("message"))
+                              var logText = event.Get("message")
+                              var res = logText.split("[");
+                              event.Set("message", res[1])
                           }
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
