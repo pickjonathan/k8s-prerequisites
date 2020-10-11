@@ -31,7 +31,7 @@ filebeat:
                           }
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
-                  multiline.pattern: "^\["
+                  multiline.pattern: '^\['
                   multiline.negate: true
                   multiline.match: after
                   exclude_lines: ['^#']
