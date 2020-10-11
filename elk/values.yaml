@@ -9,7 +9,7 @@ filebeat:
   # such as filebeat.yml
   filebeatConfig:
     filebeat.yml: |
-      logging.level: info
+      logging.level: debug
       filebeat.autodiscover:
         providers:
         - type: kubernetes

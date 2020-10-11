@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="deleted comment out">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="add info flag to debug processors">
       <change beforePath="$PROJECT_DIR$/elk/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/elk/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <workItem from="1602154499021" duration="25000" />
       <workItem from="1602154532247" duration="3827000" />
       <workItem from="1602333996618" duration="714000" />
-      <workItem from="1602409974511" duration="3098000" />
+      <workItem from="1602409974511" duration="3310000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602414875156</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add info flag to debug processors">
+      <created>1602417044541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602417044541</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +173,8 @@
     <MESSAGE value="deleted the namespace" />
     <MESSAGE value="updated dep in qa chart where ambassador chart templates were deleted." />
     <MESSAGE value="deleted comment out" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted comment out" />
+    <MESSAGE value="add info flag to debug processors" />
+    <option name="LAST_COMMIT_MESSAGE" value="add info flag to debug processors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1519" y="379" key="#Plugins" timestamp="1602154523527">
@@ -186,10 +193,10 @@
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
     <state x="765" y="233" key="MultipleFileMergeDialog/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076495880" />
-    <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1602414880406">
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2" timestamp="1602417048590">
       <screen x="0" y="23" width="5120" height="1417" />
     </state>
-    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1602414880406" />
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1602417048590" />
     <state x="289" y="299" width="602" height="522" key="find.popup" timestamp="1602100654045">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
