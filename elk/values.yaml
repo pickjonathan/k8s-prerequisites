@@ -19,16 +19,6 @@ filebeat:
                   kubernetes.namespace: qa
               config:
                 - type: container
-                  processors:
-                    - script:
-                        lang: javascript
-                        id: my_filter
-                        source: >
-                          function process(event) {
-                              var logText = event.Get("message")
-                              var res = logText.split("[");
-                              event.Set("message", res[1])
-                          }
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
                   multiline.pattern: '^\['
