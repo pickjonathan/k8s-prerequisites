@@ -31,12 +31,13 @@ filebeat:
                           }
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
-                  multiline.pattern: '^\['
+                  multiline.pattern: "^\["
                   multiline.negate: true
                   multiline.match: after
+                  exclude_lines: ['^#']
                   processors:
                     - add_tags:
-                        tags: ["NX","k8s"]
+                        tags: ["nx"]
 
       output.logstash:
         hosts: ["10.10.10.114:55556"]
