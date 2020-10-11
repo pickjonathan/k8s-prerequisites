@@ -1,6 +1,6 @@
 dependencies:
 - name: mqtt-api
   repository: gs://helm_charts_bucket
-  version: 1.0.812
-digest: sha256:80d52d542cb79e7259798b99541d4702f5aeefdf1c4dec4bdc338752dd8c9e70
-generated: "2020-10-11T16:15:04.118204+03:00"
+  version: 1.0.815
+digest: sha256:ab045e1d6f2cdc94ef57522231452a20e2a820e741c584a6e67e07239c14fc34
+generated: "2020-10-11T16:38:53.989775+03:00"
