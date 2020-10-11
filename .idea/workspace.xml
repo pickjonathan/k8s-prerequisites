@@ -22,8 +22,6 @@
     <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="updated dep in qa chart where ambassador chart templates were deleted.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elk/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/elk/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gloo/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gloo/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mqtt-api-lb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1602154499021" duration="25000" />
       <workItem from="1602154532247" duration="3827000" />
       <workItem from="1602333996618" duration="714000" />
-      <workItem from="1602409974511" duration="2298000" />
+      <workItem from="1602409974511" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>

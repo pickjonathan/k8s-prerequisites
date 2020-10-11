@@ -29,7 +29,6 @@ filebeat:
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
                   multiline.pattern: '^\['
-  #                exclude_lines: ['^#']
                   multiline.negate: true
                   multiline.match: after
                   processors:
