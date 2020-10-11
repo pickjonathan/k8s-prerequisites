@@ -18,6 +18,14 @@ filebeat:
                   kubernetes.namespace: qa
               config:
                 - type: container
+                  processors:
+                    - script:
+                        lang: javascript
+                        id: my_filter
+                        source: >
+                          function process(event) {
+                              console.log(event)
+                          }
                   paths:
                     - /var/log/containers/*-${data.kubernetes.container.id}.log
                   multiline.pattern: '^\d{4}-\d+-\d+'
