@@ -37,7 +37,7 @@ filebeat:
                             var filePathArr = filePath.split("/");
                             filePathArr[4] = "v2-" + filePathArr[4]
                             var newPath = "";
-                            for (let index = 1; index < filePathArr.length; index++) {
+                            for (var index = 1; index < filePathArr.length; index++) {
                                 var str = filePathArr[index];
                                 newPath += "/" + str
                             }
