@@ -28,6 +28,27 @@ filebeat:
                   processors:
                     - add_tags:
                         tags: ["nx"]
+                    - script:
+                        lang: javascript
+                        id: add_v2_to_file_path
+                        source: >
+                          function process(event) {
+                              event.Set("message", res[1])
+                              var filePath = event.Get("log.file.path")
+                              var filePathArr = filePath.split("/");
+                              console.log(filePathArr)
+                              filePathArr[4] = 'v2-'+filePathArr[4]
+                              console.log(filePathArr[4])
+                              var newPath = '';
+                              filePathArr.forEach(str => {
+                                  if(str !== ""){
+                                      newPath += '/'+str
+                                  }else{
+                                      newPath += str
+                                  }
+                              });
+                              event.Set("log.file.path", newPath)
+                          }
 
       output.logstash:
         hosts: ["10.10.10.114:55556"]
