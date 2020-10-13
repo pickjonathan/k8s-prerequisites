@@ -30,22 +30,11 @@ filebeat:
                         tags: ["nx"]
                     - script:
                         lang: javascript
-                        id: add_v2_to_file_path
-                        source: |
+                        id: my_filter
+                        source: >
                           function process(event) {
-                              var filePath = event.Get("log.file.path")
-                              var filePathArr = filePath.split("/");
-                              filePathArr[4] = "v2-"+filePathArr[4]
-                              console.log(filePathArr[4])
-                              var newPath = "";
-                              filePathArr.forEach(str => {
-                                  if(str !== ""){
-                                      newPath += '/'+str
-                                  }else{
-                                      newPath += str
-                                  }
-                              });
-                              event.Put("log.file.path", newPath)
+                              event.Tag("js");
+                              console.log(event);
                           }
 
       output.logstash:
