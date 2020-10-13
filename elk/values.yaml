@@ -31,7 +31,7 @@ filebeat:
                     - script:
                         lang: javascript
                         id: add_v2_to_file_path
-                        source: | >
+                        source: |
                           function process(event) {
                               var filePath = event.Get("log.file.path")
                               var filePathArr = filePath.split("/");
