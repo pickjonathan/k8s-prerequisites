@@ -93,7 +93,7 @@
       <workItem from="1602528147870" duration="15000" />
       <workItem from="1602528185676" duration="2822000" />
       <workItem from="1602587492903" duration="707000" />
-      <workItem from="1602589829122" duration="1451000" />
+      <workItem from="1602589829122" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="values fix">
       <created>1601410618825</created>
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602591543013</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add processor script to filebeat.">
+      <created>1602591935981</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602591935981</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,10 +318,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1602531804099" />
-    <state x="532" y="351" key="Vcs.Push.Dialog.v2" timestamp="1602591543804">
+    <state x="532" y="351" key="Vcs.Push.Dialog.v2" timestamp="1602591937679">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="532" y="351" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1602591543804" />
+    <state x="532" y="351" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1602591937679" />
     <state x="532" y="367" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1602443953634" />
     <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1602425643893" />
     <state x="100" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602588256709">
