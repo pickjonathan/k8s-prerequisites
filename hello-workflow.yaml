@@ -1,0 +1,28 @@
+#metadata:
+#  name: delightful-whale
+#  namespace: argocd
+#  labels:
+#    example: 'true'
+#spec:
+#  arguments:
+#    parameters:
+#      - name: mqtt-api-url
+#        value: http://10.10.10.147/mqtt-api/heartbeat
+#  entrypoint: mqtt-curl
+#  templates:
+#    - name: mqtt-curl
+#      inputs:
+#        parameters:
+#          - name: mqtt-api-url
+#            value: '{{workflow.parameters.mqtt-api-url}}'
+#      container:
+#        name: main
+#        image: 'curlimages/curl'
+#        command:
+#          - curl
+#        args:
+#          - '{{inputs.parameters.mqtt-api-url}}'
+#  ttlStrategy:
+#    secondsAfterCompletion: 300
+#  podGC:
+#    strategy: OnPodCompletion

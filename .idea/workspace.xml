@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="add processor script to filebeat.">
+      <change beforePath="$PROJECT_DIR$/elk/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/elk/values.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1iCSh1rkniOoQAODzUCAGDNsbKn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/elk" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.kubernetes.config.KubernetesConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gloo" />
+      <recent name="$PROJECT_DIR$/ambassador/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/elk" />
+      <recent name="$PROJECT_DIR$/qa" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="489f3216-8444-480d-9786-6c5e656490cc" name="Default Changelist" comment="" />
+      <created>1601410197520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601410197520</updated>
+      <workItem from="1601410199273" duration="9010000" />
+      <workItem from="1601471064731" duration="138000" />
+      <workItem from="1601495451632" duration="19000" />
+      <workItem from="1601914640423" duration="732000" />
+      <workItem from="1601978143497" duration="88000" />
+      <workItem from="1601978600789" duration="2718000" />
+      <workItem from="1602076056042" duration="1082000" />
+      <workItem from="1602093095592" duration="591000" />
+      <workItem from="1602099514543" duration="4805000" />
+      <workItem from="1602141949050" duration="1551000" />
+      <workItem from="1602154499021" duration="25000" />
+      <workItem from="1602154532247" duration="3827000" />
+      <workItem from="1602333996618" duration="714000" />
+      <workItem from="1602409974511" duration="8703000" />
+      <workItem from="1602528147870" duration="15000" />
+      <workItem from="1602528185676" duration="2822000" />
+      <workItem from="1602587492903" duration="707000" />
+      <workItem from="1602589829122" duration="2622000" />
+    </task>
+    <task id="LOCAL-00001" summary="values fix">
+      <created>1601410618825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601410618825</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changed project structure">
+      <created>1601411236704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601411236704</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleted the admin load-balancer ip">
+      <created>1601412619203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601412619203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="deleted the namespace">
+      <created>1601413263765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601413263765</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated dep in qa chart where ambassador chart templates were deleted.">
+      <created>1601988572422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601988572422</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deleted comment out">
+      <created>1602414875156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602414875156</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add info flag to debug processors">
+      <created>1602417044541</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602417044541</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add info flag to debug processors">
+      <created>1602417284175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602417284175</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add info flag to debug processors">
+      <created>1602417563148</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602417563148</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add info flag to debug processors">
+      <created>1602418052147</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602418052147</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update to the mqtt new chart with the labels and version">
+      <created>1602419188085</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602419188085</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update pattern">
+      <created>1602425639244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602425639244</updated>
+    </task>
+    <task id="LOCAL-00013" summary="upper case tags">
+      <created>1602442702526</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602442702526</updated>
+    </task>
+    <task id="LOCAL-00014" summary="upper case tags">
+      <created>1602443365008</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602443365008</updated>
+    </task>
+    <task id="LOCAL-00015" summary="upper case tags">
+      <created>1602443474788</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602443474788</updated>
+    </task>
+    <task id="LOCAL-00016" summary="deleted the processor">
+      <created>1602443952431</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602443952431</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add processor script to filebeat.">
+      <created>1602590035966</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602590035966</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add processor script to filebeat.">
+      <created>1602590419289</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602590419289</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add processor script to filebeat.">
+      <created>1602590671148</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602590671149</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add processor script to filebeat.">
+      <created>1602590844502</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602590844502</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add processor script to filebeat.">
+      <created>1602591543013</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602591543013</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add processor script to filebeat.">
+      <created>1602591935981</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602591935981</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add processor script to filebeat.">
+      <created>1602592335487</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602592335487</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add processor script to filebeat.">
+      <created>1602593377434</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602593377434</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add processor script to filebeat.">
+      <created>1602594034902</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1602594034902</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="values fix" />
+    <MESSAGE value="changed project structure" />
+    <MESSAGE value="deleted the admin load-balancer ip" />
+    <MESSAGE value="deleted the namespace" />
+    <MESSAGE value="updated dep in qa chart where ambassador chart templates were deleted." />
+    <MESSAGE value="deleted comment out" />
+    <MESSAGE value="add info flag to debug processors" />
+    <MESSAGE value="update to the mqtt new chart with the labels and version" />
+    <MESSAGE value="update pattern" />
+    <MESSAGE value="upper case tags" />
+    <MESSAGE value="deleted the processor" />
+    <MESSAGE value="add processor script to filebeat." />
+    <option name="LAST_COMMIT_MESSAGE" value="add processor script to filebeat." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="395" key="#Notifications" timestamp="1602532072244">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="623" y="395" key="#Notifications/0.0.1792.1120@0.0.1792.1120" timestamp="1602532072244" />
+    <state x="1519" y="379" key="#Plugins" timestamp="1602154523527">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="1519" y="379" key="#Plugins/0.23.5120.1417@0.23.5120.1417" timestamp="1602154523527" />
+    <state x="584" y="320" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602528153333">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1602099921760" />
+    <state x="584" y="320" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1602528153333" />
+    <state x="1228" y="197" width="2096" height="1155" key="MergeDialog" timestamp="1602076495849">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="1228" y="197" width="2096" height="1155" key="MergeDialog/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076495849" />
+    <state x="765" y="233" key="MultipleFileMergeDialog" timestamp="1602076495880">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="765" y="233" key="MultipleFileMergeDialog/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076495880" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1602531804099">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1602531804099" />
+    <state x="532" y="351" key="Vcs.Push.Dialog.v2" timestamp="1602594036103">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="532" y="351" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1602594036103" />
+    <state x="532" y="367" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1602443953634" />
+    <state x="1520" y="467" key="Vcs.Push.Dialog.v2/0.23.5120.1417@0.23.5120.1417" timestamp="1602425643893" />
+    <state x="100" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602588256709">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="100" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1602536617303" />
+    <state x="100" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1602588256709" />
+    <state x="289" y="299" width="602" height="522" key="find.popup" timestamp="1602100654045">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="289" y="299" width="602" height="522" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1602100654045" />
+    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup" timestamp="1602413091221">
+      <screen x="0" y="23" width="5120" height="1417" />
+    </state>
+    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup/0.23.5120.1417/-1792.23.1792.1097@0.23.5120.1417" timestamp="1602076458474" />
+    <state x="1667" y="339" width="1787" height="887" key="search.everywhere.popup/0.23.5120.1417@0.23.5120.1417" timestamp="1602413091221" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1601465052398" />
+  </component>
+</project>

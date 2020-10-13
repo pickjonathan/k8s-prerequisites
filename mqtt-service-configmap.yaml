@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mqtt-api
+data:
+  swagger_doc_uri: mqtt-api/.ambassador-internal/openapi-docs
+  versionNumber: "2"
