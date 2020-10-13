@@ -37,6 +37,14 @@ filebeat:
                             var filePathArr = filePath.split("/");
                             filePathArr[4] = "v2-"+filePathArr[4]
                             var newPath = "";
+                            for (let index = 0; index < filePathArr.length; index++) {
+                                const str = filePathArr[index];
+                                if(str === ""){
+                                    continue;
+                                }else{
+                                    newPath += "/"+str
+                                }
+                            }
                             event.Put("log.file.path", newPath)
                           }
 
