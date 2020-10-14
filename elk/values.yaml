@@ -35,7 +35,7 @@ filebeat:
                           function process(event) {
                             var filePath = event.Get("log.file.path")
                             var filePathArr = filePath.split("/");
-                            filePathArr[4] = "v2-" + filePathArr[4]
+                            filePathArr[4] = event.Get("kubernetes.container.name")+"/v2." + filePathArr[4]
                             var newPath = "";
                             for (var index = 1; index < filePathArr.length; index++) {
                                 var str = filePathArr[index];
