@@ -42,6 +42,7 @@ filebeat:
                                 newPath += "/" + str
                             }
                             event.Put("log.file.path", newPath)
+                            event.Put("service", event.Get("kubernetes.container.name"))
                           }
 
       output.logstash:
