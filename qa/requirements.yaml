@@ -1,4 +1,4 @@
 dependencies:
   - name: mqtt-api
     version: 1.0.881
-    repository: 10.10.10.146:8443
+    repository: mqtt-api
