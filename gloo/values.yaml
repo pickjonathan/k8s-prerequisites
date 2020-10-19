@@ -1,4 +1,4 @@
-global.istioSDS.enabled: true
+# global.istioSDS.enabled: true
 gloo-ee:
   gloo:
     gateway:

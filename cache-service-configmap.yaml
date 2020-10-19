@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: cache-service
-data:
-  type: CouchBase
-  bucket_name: k8s-qa
-  connection_string: qailcb-cluster.nayaxvend.int:8091
